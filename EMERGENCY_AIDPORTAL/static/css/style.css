@@ -1,0 +1,204 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #87CEFA, #90DFFE);
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dashboard-container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 15px; /* Rounded corners */
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 400px; 
+  }
+  
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+    min-height: 400px;
+  }
+  
+  .pie-chart, .graph {
+    width: 45%;
+    max-width: 600px; /* Ensure there's a max width */
+    height: 400px; /* Fixed height for the graphs */
+  }
+  
+  .counts {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .count-box {
+    background-color: #fff;
+    padding: 20px;
+    width: 20%; /* Reduced width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px; /* Rounded corners for count boxes */
+  }
+  
+  .count-box h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .count-box p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #9b4d96; /* Purplish color for counts */
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('https://via.placeholder.com/1500x600.png') no-repeat center center/cover;
+    height: 70vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  /* Thought Section */
+  .thought-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    text-align: left;
+    background-color: #f8f9fa;
+  }
+  
+  .thought-section .left {
+    width: 45%;
+    padding: 30px;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #333;
+  }
+  
+  .thought-section .right {
+    width: 45%;
+    height: 350px;
+    background: url('https://faithcounts.com/wp-content/uploads/religion-serve-1280x720-1-1024x576.jpeg') no-repeat center center/cover;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  
+  /* Categories Section */
+  .categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0;
+  }
+  
+  .category-box {
+    background-color: #f8f9fa;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+  }
+  
+  .category-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  /* About Us Section */
+  .about-us {
+    background-color: #000;
+    color: #f8f9fa;
+    padding: 40px 60px;
+    text-align: left;
+  }
+  
+  .about-us h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .about-us ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  /* Navbar */
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  /* Search Container */
+  .search-container {
+    position: relative;
+  }
+  
+  .search-bar {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+  }
+  
+  .search-bar input {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  /* Contact Icons Styling */
+  .contact-icons a {
+    display: inline-block;
+    padding: 15px;
+    border-radius: 50%; /* Round the icon container */
+    background-color: #333; /* Dark background for the icons */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    margin: 10px; /* Space between the icons */
+  }
+  
+  /* Icon Appearance */
+  .contact-icons i {
+    font-size: 20px; /* Icon size */
+    color: white; /* White icon color */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* 3D effect for the icon */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transformation on hover */
+  }
+  
+  /* Icon Hover Effect */
+  .contact-icons a:hover {
+    background-color: #007bff; /* Change background color on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Deepen the shadow on hover */
+  }
+  
+  .contact-icons a:hover i {
+    transform: scale(1.1); /* Enlarge the icon on hover */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); /* Add subtle shadow on hover */
+  }
+  
