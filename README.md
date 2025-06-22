@@ -29,4 +29,4 @@ A full-stack web application built using Flask to streamline accident reporting,
 git clone https://github.com/keertiG-1296/EMERGENCY_AIDPORTAL.git
 cd EMERGENCY_AIDPORTAL
 pip install -r requirements.txt
-python app.py
+python main.py
