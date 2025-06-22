@@ -19,8 +19,8 @@ A full-stack web application built using Flask to streamline accident reporting,
 - **Backend**: Python, Flask
 - **Frontend**: HTML, CSS, Bootstrap, JavaScript
 - **Templating**: Jinja2
-- **Database**: (add MySQL or SQLite if used)
-- **Version Control**: Git, GitHub
+- **Database**:  MySQL 
+- **Version Control**:  GitHub
 
 ---
  🔧 How to Run Locally
